@@ -18,7 +18,7 @@ void setConsoleCursorVisible(bool showFlag)
 int main()
 {
   setConsoleCursorVisible(false);
-  const int size = 15;
+  const int size = 20;
   char* game = new char[size];
   game[size - 1] = '\0';
 
