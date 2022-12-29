@@ -22,7 +22,7 @@ int main()
   char* game = new char[size];
   game[size - 1] = '\0';
 
-  const char cPlayer = 'A';
+  const char cPlayer = 'B';
   int iPlayerPos = size / 2;
 
   const char cEnemy = '$';
